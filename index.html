@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Interactive Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="background">
+    <div class="clock" id="clock"></div>
+
+    <div id="login-form">
+      <input type="text" id="userName" placeholder="Type your name here" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="greeting"></div>
+
+    <div class="todo-form" id="todo-form">
+      <h2>Todo List</h2>
+      <input type="text" id="todo-input" placeholder="Write a To Do here" />
+      <button onclick="addTodo()">Add</button>
+    </div>
+    <ul id="todo-list" class="todo-list"></ul>
+
+    <div class="weather" id="weather"></div>
+    <!-- index.html 내 원하는 위치에 -->
+
+  </div>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+  <!-- <script src="clock.js"></script>
+  <script src="login.js"></script>
+  <script src="todo.js"></script>
+  <script src="background.js"></script>
+  <script src="weather.js"></script> -->
+</body>
+</html>
